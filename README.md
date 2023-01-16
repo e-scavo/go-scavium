@@ -2,7 +2,7 @@
 
 Official SCAVIUM Golang Client based on the go-ethereum.
 
-![logo](SCAVIUM_Transparent.png)
+![logo](SCAVIUM_transparent.png)
 
 ## Features
 - Ethereum compatible,but low gas fee.
