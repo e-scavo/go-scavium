@@ -36,10 +36,10 @@ var MainnetBootnodes = []string{
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the test network.
 var TestnetBootnodes = []string{
-	"enode://8c9f9ae190193d5674d165716310cce8b0ca88b7b9a1eedc6986215dff1aebc61013f9e269aa1c8c6234a064664a327747eedf469866e3307d0e6e0323426f47@191.102.254.250:36501", //scavium-testnet-node-boot-01
-	"enode://432dfd8e43a29517d99db1945340d833ac3ed044af86d19f2c9919d24ece42c9085d4e75ed72d3dde707626f42b0fa182ac5f3a474cfcf54466d7960c3ac99d9@191.102.254.250:36601", // scavium-testnet-node-boot-02
-	"enode://90af292929b7c5ab39ade6b53abdae6c6cbe979d8a0eef2b23a9438547a7c5c838a69286721d223626191c8f1dd58c1fbbc08bdaa292f1a70b67fa6d483e574f@191.102.254.250:36701", // scavium-testnet-node-boot-03
-	"enode://dc5be6314b34535506cf7cefbd4bb5ce19f2e7fe8441ad3a763e88c764a68166f4565ed818aeab757529cff5c407ffdf62404dcca77e848b3504dfd9aee3a60b@191.102.254.250:36801", // scavium-testnet-node-boot-04
+	"enode://8c9f9ae190193d5674d165716310cce8b0ca88b7b9a1eedc6986215dff1aebc61013f9e269aa1c8c6234a064664a327747eedf469866e3307d0e6e0323426f47@191.102.248.250:36501", //scavium-testnet-node-boot-01
+	"enode://432dfd8e43a29517d99db1945340d833ac3ed044af86d19f2c9919d24ece42c9085d4e75ed72d3dde707626f42b0fa182ac5f3a474cfcf54466d7960c3ac99d9@191.102.248.249:36501", // scavium-testnet-node-boot-02
+	"enode://90af292929b7c5ab39ade6b53abdae6c6cbe979d8a0eef2b23a9438547a7c5c838a69286721d223626191c8f1dd58c1fbbc08bdaa292f1a70b67fa6d483e574f@191.102.248.248:36501", // scavium-testnet-node-boot-03
+	"enode://dc5be6314b34535506cf7cefbd4bb5ce19f2e7fe8441ad3a763e88c764a68166f4565ed818aeab757529cff5c407ffdf62404dcca77e848b3504dfd9aee3a60b@191.102.248.247:36501", // scavium-testnet-node-boot-04
 }
 
 var V5Bootnodes []string
