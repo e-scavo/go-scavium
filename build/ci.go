@@ -280,6 +280,7 @@ func DoCrossInstall(cmdline []string) {
 
 	// Put the default settings in.
 	gobuild.Args = append(gobuild.Args, buildFlags(env)...)
+	//gobuild.Args = append(gobuild.Args, "-static")
 	fmt.Printf("\ngobuild: %+v\n", gobuild)
 
 	// We use -trimpath to avoid leaking local paths into the built executables.
@@ -408,6 +409,7 @@ func buildFlags(env build.Environment) (flags []string) {
 	if runtime.GOOS == "darwin" {
 		ld = append(ld, "-s")
 	}
+	ld = append(ld, "-extldflags \"-static\"")
 	if len(ld) > 0 {
 		flags = append(flags, "-ldflags", strings.Join(ld, " "))
 	}
